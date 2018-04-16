@@ -2,7 +2,10 @@
 @import "rec";
 @import "reset";
 @import "header";
+@import "helpers";
+@import "navbar";
+@import "slider";
 
 body {
-    background: $body-background
+    background: $body-background 
 }

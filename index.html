@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="css/app.css">
     <title>QQ 音乐</title>
 </head>
+
 <body>
     <header id="header">
         <h1>QQ音乐</h1>
@@ -22,12 +24,23 @@
     <div>
         <div class="rec-view tab-content">
             <div class="qq-slider" id="slider"></div>
+            <div class="radios">
+                <h2 class="title">电台</h2>
+                <div class="list">
+                </div>
+            </div>
+            <div class="playlists">
+                <h2 class="title">热门歌单</h2>
+                <div class="list"></div>
+            </div>
         </div>
         <div class="rank-view tab-content hide">排行榜</div>
         <div class="search-view tab-content hide">搜索</div>
     </div>
     <script src="scripts/slider.js"></script>
     <script src="scripts/tab.js"></script>
+    <script src="scripts/lazyload.js"></script>
     <script src="scripts/app.js"></script>
 </body>
+
 </html>

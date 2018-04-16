@@ -1,13 +1,43 @@
 (function(){
-    let slider = new Slider({
-        el: document.querySelector("#slider"),
-        sliders: [
-            {link: '#1', image: 'https://y.gtimg.cn/music/photo_new/T003R720x288M000001Qcn7I1vVwHC.jpg'},
-            {link: '#2', image: 'https://y.gtimg.cn/music/photo_new/T003R720x288M000003zOYtr0XJ0iN.jpg'},
-            {link: '#3', image: 'https://y.gtimg.cn/music/photo_new/T003R720x288M000000NUcZh2V2e8F.jpg'},
-            {link: '#4', image: 'https://y.gtimg.cn/music/photo_new/T003R720x288M000002Fui0K0Sseqm.jpg'},
-            {link: '#5', image: 'https://y.gtimg.cn/music/photo_new/T003R720x288M000004cPC5K3en38H.jpg'}
-        ]
-    });
-    window.slider = slider;
+
+    fetch('/json/rec.json').then(res => res.json()).then(render)
+
+    function render(json) {
+        renderSlider(json.data.slider);
+        renderRadios(json.data.radioList);
+        renderPlaylists(json.data.songList);
+        lazyload(document.querySelectorAll('.lazyload'));
+    }
+
+    function renderSlider(slider) {
+        let sliders = slider.map(slider => {
+            return {link: slider.linkUrl, image: slider.picUrl}
+        })
+        new Slider({
+            el: document.querySelector("#slider"),
+            sliders
+        });
+    }
+
+    function renderRadios(radios) {
+        document.querySelector('.radios .list').innerHTML = radios.map(radio => 
+            `<div class="list-item">
+                <div class="list-media">
+                    <img class="lazyload" data-src="${radio.picUrl}">
+                    <span class="icon icon-play"></span>
+                </div>
+                <div class="list-title">${radio.Ftitle}</div>
+            </div>`).join('')
+    }
+
+    function renderPlaylists(playlists) {
+        document.querySelector('.playlists .list').innerHTML = playlists.map(list => 
+            `<div class="list-item">
+                <div class="list-media">
+                    <img class="lazyload" data-src="${list.picUrl}">
+                    <span class="icon icon-play"></span>
+                </div>
+                <div class="list-title">${list.songListDesc}</div>
+            </div>`).join('')
+    }
 })()
