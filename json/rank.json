@@ -1,0 +1,304 @@
+{
+    "code": 0,
+    "subcode": 0,
+    "message": "",
+    "default": 0,
+    "data": {
+        "topList": [
+            {
+                "id": 4,
+                "listenCount": 19700000,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_4_300_213726584.jpg",
+                "songList": [
+                    {
+                        "singername": "五月天",
+                        "songname": "后来的我们（电影《后来的我们》片名曲）"
+                    },
+                    {
+                        "singername": "于文文",
+                        "songname": "奉陪"
+                    },
+                    {
+                        "singername": "薛之谦",
+                        "songname": "摩天大楼"
+                    }
+                ],
+                "topTitle": "巅峰榜·流行指数",
+                "type": 0
+            },
+            {
+                "id": 26,
+                "listenCount": 20000000,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_26_300_213470055.jpg",
+                "songList": [
+                    {
+                        "singername": "烟把儿乐队",
+                        "songname": "纸短情长（完整版） (完整版)"
+                    },
+                    {
+                        "singername": "孙语赛/萧全",
+                        "songname": "不仅仅是喜欢"
+                    },
+                    {
+                        "singername": "陈奕迅",
+                        "songname": "我们"
+                    }
+                ],
+                "topTitle": "巅峰榜·热歌",
+                "type": 0
+            },
+            {
+                "id": 27,
+                "listenCount": 17936192,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_27_300_213758212.jpg",
+                "songList": [
+                    {
+                        "singername": "薛之谦",
+                        "songname": "摩天大楼"
+                    },
+                    {
+                        "singername": "徐良/李玉刚",
+                        "songname": "花魁"
+                    },
+                    {
+                        "singername": "于文文",
+                        "songname": "奉陪"
+                    }
+                ],
+                "topTitle": "巅峰榜·新歌",
+                "type": 0
+            },
+            {
+                "id": 33,
+                "listenCount": 9700000,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_33_300_212892375.jpg",
+                "songList": [
+                    {
+                        "singername": "张韶涵",
+                        "songname": "阿刁 (Live)"
+                    },
+                    {
+                        "singername": "华晨宇/G.E.M. 邓紫棋",
+                        "songname": "光年之外 (Live)"
+                    },
+                    {
+                        "singername": "张韶涵/毛不易",
+                        "songname": "花房姑娘 + We Are The Champions (Live)"
+                    }
+                ],
+                "topTitle": "全军出击·巅峰榜·歌手2018",
+                "type": 0
+            },
+            {
+                "id": 28,
+                "listenCount": 9900000,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_28_300_200284331.jpg",
+                "songList": [
+                    {
+                        "singername": "花子风",
+                        "songname": "爱过了不后悔 (DJ版)"
+                    },
+                    {
+                        "singername": "赵阿鑫",
+                        "songname": "也许夜最适合哭"
+                    },
+                    {
+                        "singername": "莫尔根",
+                        "songname": "观世音菩萨祈祷文"
+                    }
+                ],
+                "topTitle": "巅峰榜·网络歌曲",
+                "type": 0
+            },
+            {
+                "id": 5,
+                "listenCount": 9100000,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_5_300_213727386.jpg",
+                "songList": [
+                    {
+                        "singername": "于文文",
+                        "songname": "奉陪"
+                    },
+                    {
+                        "singername": "汪苏泷",
+                        "songname": "彼此的光荣"
+                    },
+                    {
+                        "singername": "李健",
+                        "songname": "山歌好比春江水"
+                    }
+                ],
+                "topTitle": "巅峰榜·内地",
+                "type": 0
+            },
+            {
+                "id": 6,
+                "listenCount": 4788460,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_6_300_213726584.jpg",
+                "songList": [
+                    {
+                        "singername": "五月天",
+                        "songname": "后来的我们（电影《后来的我们》片名曲）"
+                    },
+                    {
+                        "singername": "陈奕迅",
+                        "songname": "我们"
+                    },
+                    {
+                        "singername": "谢霆锋",
+                        "songname": "放肆"
+                    }
+                ],
+                "topTitle": "巅峰榜·港台",
+                "type": 0
+            },
+            {
+                "id": 3,
+                "listenCount": 9400000,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_3_300_213398874.jpg",
+                "songList": [
+                    {
+                        "singername": "Christopher",
+                        "songname": "Bad"
+                    },
+                    {
+                        "singername": "Poo Bear/Justin Bieber/Jay Electronica",
+                        "songname": "Hard 2 Face Reality"
+                    },
+                    {
+                        "singername": "Lady Gaga",
+                        "songname": "Your Song"
+                    }
+                ],
+                "topTitle": "巅峰榜·欧美",
+                "type": 0
+            },
+            {
+                "id": 16,
+                "listenCount": 8118400,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_16_300_212928794.jpg",
+                "songList": [
+                    {
+                        "singername": "iKON (아이콘)",
+                        "songname": "LOVE SCENARIO (사랑을 했다)"
+                    },
+                    {
+                        "singername": "WINNER (위너)",
+                        "songname": "EVERYDAY"
+                    },
+                    {
+                        "singername": "지연 (芝妍)/박효준 (朴孝俊)",
+                        "songname": "집으로 오는 길 (回家的路)"
+                    }
+                ],
+                "topTitle": "巅峰榜·韩国",
+                "type": 0
+            },
+            {
+                "id": 29,
+                "listenCount": 3912500,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_29_300_213726584.jpg",
+                "songList": [
+                    {
+                        "singername": "五月天",
+                        "songname": "后来的我们（电影《后来的我们》片名曲）"
+                    },
+                    {
+                        "singername": "汪苏泷",
+                        "songname": "彼此的光荣"
+                    },
+                    {
+                        "singername": "陈奕迅",
+                        "songname": "我们"
+                    }
+                ],
+                "topTitle": "巅峰榜·影视金曲",
+                "type": 0
+            },
+            {
+                "id": 17,
+                "listenCount": 1910000,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_17_300_213533442.jpg",
+                "songList": [
+                    {
+                        "singername": "初音ミク (初音未来)",
+                        "songname": "君の夢は私の夢 (你的梦就是我的梦)"
+                    },
+                    {
+                        "singername": "GARNiDELiA (ガルニデリア)",
+                        "songname": "桃源恋歌"
+                    },
+                    {
+                        "singername": "初音ミク (初音未来)",
+                        "songname": "初梦"
+                    }
+                ],
+                "topTitle": "巅峰榜·日本",
+                "type": 0
+            },
+            {
+                "id": 201,
+                "listenCount": 252077,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/20150127163830.jpg",
+                "songList": [
+                    {
+                        "singername": "陈奕迅",
+                        "songname": "我们"
+                    },
+                    {
+                        "singername": "孙怡",
+                        "songname": "初见初恋"
+                    },
+                    {
+                        "singername": "五月天",
+                        "songname": "后来的我们"
+                    }
+                ],
+                "topTitle": "巅峰榜·MV",
+                "type": 0
+            },
+            {
+                "id": 52,
+                "listenCount": 1927440,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_52_300_213494576.jpg",
+                "songList": [
+                    {
+                        "singername": "声音玩具",
+                        "songname": "你的城市"
+                    },
+                    {
+                        "singername": "Y U Jay",
+                        "songname": "Love U"
+                    },
+                    {
+                        "singername": "Maximilian Hecker",
+                        "songname": "My Wretched Love"
+                    }
+                ],
+                "topTitle": "巅峰榜·腾讯音乐人原创榜",
+                "type": 0
+            },
+            {
+                "id": 36,
+                "listenCount": 3139900,
+                "picUrl": "http://y.gtimg.cn/music/common/upload/iphone_order_channel/toplist_36_300_200732019.jpg",
+                "songList": [
+                    {
+                        "singername": "胡慧",
+                        "songname": "分手快乐"
+                    },
+                    {
+                        "singername": "郑阳亭",
+                        "songname": "你那么爱他"
+                    },
+                    {
+                        "singername": "胡赟兆",
+                        "songname": "啷个哩个啷"
+                    }
+                ],
+                "topTitle": "巅峰榜·K歌金曲",
+                "type": 0
+            }
+        ]
+    }
+}
