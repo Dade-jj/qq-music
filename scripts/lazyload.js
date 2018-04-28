@@ -1,8 +1,6 @@
-function lazyload(images) {
-    let imgs = [].slice.call(images);
-    
+export function lazyload(images) {
+    let imgs = [].slice.call(images || document.querySelectorAll('.lazyload'));//把类数组对象转为真正的数组
     let onscroll = throttle(function () {
-        console.log(new Date())
         if (imgs.length === 0) {
             return window.removeEventListener('scroll', onscroll)
         }

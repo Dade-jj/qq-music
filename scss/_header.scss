@@ -10,4 +10,13 @@
         margin-left: 10px;
         height: $logo-height;
     }
+    .btn-download {
+        position: absolute;
+        right: 10px;
+        border-radius: 60px;
+        padding: 5px 10px;
+        background: #149c5a;
+        color: #fff;
+        font-size: 14px;
+    }
 }

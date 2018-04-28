@@ -1,9 +1,10 @@
 document.addEventListener('click',function(event){
     let target = event.target;
+
     if(target.dataset.role !== 'tab') {
         return;
     }
-
+    
     [].forEach.call(target.parentElement.children, tab => {
         tab.classList.remove('active');
     })
@@ -19,4 +20,4 @@ document.addEventListener('click',function(event){
         content.style.display = 'block';
     }
     window.dispatchEvent(new Event('scroll'))
-})
+},false)

@@ -89,7 +89,7 @@
         vertical-align: middle;
         background-size: 20px 20px;
         background-image: url('../images/icon_loading.png');
-        animation: loading 1s infinite;
+        animation: 1s loading infinite;
     }
     .loading-text {
         margin-left: 5px;
@@ -99,3 +99,30 @@
         font-size: 12px;
     }
 }
+
+@keyframes loading {
+    from { transform: rotate(0deg) }
+    8.32% { transform: rotate(0deg) }
+    8.33% { transform: rotate(30deg) }
+    16.65% { transform: rotate(30deg) }
+    16.66% { transform: rotate(60deg) }
+    24.99% { transform: rotate(60deg) }
+    25% { transform: rotate(90deg) }
+    33.32% { transform: rotate(90deg) }
+    33.33% { transform: rotate(120deg) }
+    41.65% { transform: rotate(120deg) }
+    41.66% { transform: rotate(150deg) }
+    49.99% { transform: rotate(150deg) }
+    50% { transform: rotate(180deg) }
+    58.32% { transform: rotate(180deg) }
+    58.33% { transform: rotate(210deg) }
+    66.65% { transform: rotate(210deg) }
+    66.66% { transform: rotate(240deg) }
+    74.99% { transform: rotate(240deg) }
+    75% { transform: rotate(270deg) }
+    83.32% { transform: rotate(270deg) }
+    83.33% { transform: rotate(300deg) }
+    91.65% { transform: rotate(300deg) }
+    91.66% { transform: rotate(330deg) }
+    99.99% { transform: rotate(330deg) }
+  }
