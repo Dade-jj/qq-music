@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dist": "node-sass --output-style compressed scss/app.scss > css/app.css  -o dist/app.css dist/app.css  && webpack -p",
+    "dist": "node-sass --output-style compressed scss/app.scss > dist/app.css-o dist/app.css dist/app.css  && webpack -p",
     "server": "browser-sync start --server --files 'css/*.css, scripts/*.js'",
     "sass": "node-sass -w scss/ -o css/",
     "start": "webpack --config webpack.config.js"
@@ -35,9 +35,6 @@
     "babel-core": "^6.26.2",
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
-    "webpack": "^4.6.0",
-    "webpack-dev-middleware": "^3.1.3",
-    "webpack-dev-server": "^3.1.3",
-    "webpack-hot-middleware": "^2.22.1"
+    "webpack": "^3.5.6"
   }
 }

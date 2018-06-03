@@ -10,12 +10,12 @@ export class MusicPlayer {
         this.lyrics = new LyricsPlayer(this.$el.querySelector('.player-lyrics'),this.$audio)
         this.progress = new ProgressBar(this.$el.querySelector('.progress'))
         this.fetching = false
-        // this.hide();
+        this.hide();
     }
 
     createAudio() {
         this.$audio = document.createElement('audio')
-
+        this.$audio.style.display = 'none'
         this.$audio.id = `player-${Math.floor(Math.random() * 100)}-${+new Date()}`
         this.$audio.crossOrigin ="anonymous"
         this.$audio.controls = "controls" 
@@ -75,7 +75,6 @@ export class MusicPlayer {
             if(this.songid !== options.songid){
                 this.$el.querySelector('.icon-action').className = 'icon-action icon-play'
             } 
-
             this.songid = options.songid
             this.$audio.src = songUrl(this.songid)
             this.fetching = true
